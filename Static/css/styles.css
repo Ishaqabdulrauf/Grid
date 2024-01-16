@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background: rgb(226, 226, 226);
+}
+
+.main {
+  padding-left: 15px;
+  padding-right: 60px;
+}
+
+.attend {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 20px;
+  text-transform: capitalize;
+  gap: 20px;
+}
+
+.attend-list {
+  width: 100%;
+  padding: 20px 20px;
+  margin-top: 10px;
+  background: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+h1 {
+  grid-column: span 7;
+  margin-bottom: 10px;
+}
+
+
+.header {
+    color: #000000;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 12px 15px;
+  border-radius: .5rem;
+}
+
+.item {
+  padding: 8px;
+}
+
+.item2, .item5 ,.item8{
+ font-weight: bold;
+ color: #4ad489;
+}
+
+button{
+    padding: 6px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #4AD489;
+}
+
+button:hover {
+  background-color: #f30808;
+}
+
+.button-complete button{
+    background-color: #0bf373;
+}
+
+.button-complete button:hover{
+  transform: scale(1.1);
+}
+
