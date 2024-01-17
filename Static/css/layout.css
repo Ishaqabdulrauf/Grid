@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+    background: rgb(226, 226, 226);
+}
+
+
+.main{
+  padding-left: 15px;
+  padding-right: 20px;
+}
+
+.class{
+  margin-top: 30px;
+  text-align: center;
+  padding: 20px 20px;
+  background: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  display: grid;
+  height: 80vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+  grid-template-areas:
+    "sidebar nav nav nav"
+    "sidebar main main main"
+    "sidebar content1 content2 content3"
+    "sidebar footer footer footer";
+    grid-gap: 10px;
+}
+
+nav {
+  background: #a7ffeb;
+  grid-area: nav;
+}
+
+main {
+  background: #84ffff;
+  grid-area: main;
+}
+
+#sidebar {
+  background: #18ffff;
+  grid-area: sidebar;
+}
+
+#content1 {
+  background: #6fffd2;
+  grid-area: content1;
+}
+
+#content2 {
+  background: #64ffda;
+  grid-area: content2;
+}
+
+#content3 {
+  background: #73ffba;
+  grid-area: content3;
+}
+
+footer {
+  background: #1de9b6;
+  grid-area: footer;
+}
