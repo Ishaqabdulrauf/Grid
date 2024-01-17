@@ -78,3 +78,7 @@ button:hover {
   transform: scale(1.1);
 }
 
+.footer{
+  background-color: #4b4b4b;
+  text-align: center;
+}
